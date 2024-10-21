@@ -30,3 +30,9 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+.nav-link {
+  @apply text-lg text-primary;
+}
