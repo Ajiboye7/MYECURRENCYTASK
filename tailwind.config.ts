@@ -19,7 +19,8 @@ const config: Config = {
         btnHover: '#0A1E3A',
         sponsorBg:"#FFFFFF",
         circleBg:"#C4C4C4",
-        cardBg:"#FBF9F2"
+        cardBg:"#FBF9F2",
+        footerBg:"#043C50"
       },
 
       backgroundImage: {

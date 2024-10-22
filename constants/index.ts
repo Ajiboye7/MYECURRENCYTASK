@@ -49,3 +49,37 @@ export const ProductReviews = [
         name:"Nate Jacobs"
     },
 ]
+
+
+export const FooterLinks=[
+    {
+        title:'Company',
+        links:[
+            {title: 'About', url:'/'},
+            {title: 'Blog', url:'/'},
+            {title: 'Contact', url:'/'},
+            {title: 'Jobs', url:'/'},
+        ]
+    },
+
+    {
+        title:'Contact',
+        links:[
+            {title: 'phone', url:'/'},
+            {title: '+234 708 507 3128', url:'/'},
+            {title: 'Address', url:'/'},
+            {title: '16, Ogindipe Close Upston Close', url:'/'},
+        ]
+    },
+
+    {
+        title:'CONSUMER ADVISORY',
+        links:[
+            {title: 'About', url:'/'},
+            {title: '+234 708 507 3128', url:'/'},
+            {title: 'Contact', url:'/'},
+            {title: 'Jobs', url:'/'},
+        ]
+    },
+
+]
