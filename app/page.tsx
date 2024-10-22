@@ -1,6 +1,7 @@
 import Hero from '@/components/HomeHero';
 import Mission from '@/components/Mission';
 import Navbar from '@/components/Navbar';
+import ProductReview from '@/components/ProductReview';
 import ShopNow from '@/components/ShopNow';
 import Story from '@/components/Story';
 import Testimonies from '@/components/Testimonies';
@@ -16,6 +17,7 @@ const Home = () => {
     <ShopNow/>
     <Mission/>
     <Visit/>
+    <ProductReview/>
     </>
   );
 }

@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-full max-w-[1950px] h-[131px]  rounded-[2px] absolute bottom-10 right-0 bg-sponsorBg shadow-2xl px-4 container">
+      <div className="w-full max-w-[1500px] h-[131px]  rounded-[2px] absolute bottom-10 right-0 bg-sponsorBg shadow-2xl px-4 container">
   <div className="flex flex-wrap items-center justify-around h-full gap-4">
     <Image src={images.google} alt="google" width={146} height={51} className="w-[50%] sm:w-auto" />
     <Image src={images.forbes} alt="forbes" width={129} height={32} className="w-[50%] sm:w-auto" />
