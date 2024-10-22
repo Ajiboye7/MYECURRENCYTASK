@@ -33,9 +33,27 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className=" ">
-      <div className="w-[1276px] h-[131px] border rounded-[2px] absolute bottom-10 right-0 bg-sponsorBg shadow-2xl">
-        <div className="flex items-center justify-around h-full">
+      <div className="w-full max-w-[1950px] h-[131px]  rounded-[2px] absolute bottom-10 right-0 bg-sponsorBg shadow-2xl px-4 container">
+  <div className="flex flex-wrap items-center justify-around h-full gap-4">
+    <Image src={images.google} alt="google" width={146} height={51} className="w-[50%] sm:w-auto" />
+    <Image src={images.forbes} alt="forbes" width={129} height={32} className="w-[50%] sm:w-auto" />
+    <Image src={images.bloomberg} alt="bloomberg" width={226} height={44} className="w-[50%] sm:w-auto" />
+    <Image src={images.sleepReview} alt="sleepReview" width={201} height={48} className="w-[50%] sm:w-auto" />
+    <Image src={images.influencive} alt="influencive" width={220} height={48} className="w-[50%] sm:w-auto" />
+  </div>
+</div>
+
+     
+      
+    </section>
+  );
+};
+
+export default Hero;
+/*
+
+ <div className="w-[1276px] h-[131px] border rounded-[2px] absolute bottom-10 right-0 bg-sponsorBg shadow-2xl container">
+        <div className="flex flex-wrap items-center justify-around h-full">
           <Image src={images.google} alt="google" width={146} height={51} />
           <Image src={images.forbes} alt="forbes" width={129} height={32} />
           <Image
@@ -59,11 +77,4 @@ const Hero = () => {
           />
         </div>
       </div>
-
-      </div>
-      
-    </section>
-  );
-};
-
-export default Hero;
+*/
