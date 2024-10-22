@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section className="bg-hero-bg bg-cover bg-center h-[90vh] w-full">
       <div className=" flex w-full h-full">
-        <div className="w-[1276px] mx-auto mt-72 ">
+        <div className="container mx-auto mt-72 ">
           <p className="text-[18px] font-normal text-primary">
             We are here to help you
           </p>

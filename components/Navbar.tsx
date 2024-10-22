@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav className=' absolute top-0 left-0 w-full'>
-        <div className='flex items-center justify-start z-10 gap-36 mt-3 w-[1276px] mx-auto'>
+        <div className='flex items-center justify-start z-10 gap-36 mt-3 container mx-auto'>
         <div>
         <Image
         src={icons.footerLogo}
