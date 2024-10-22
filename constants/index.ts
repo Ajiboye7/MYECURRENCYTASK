@@ -23,3 +23,29 @@ export const TestimoniesData =[
         testimony:"Helps me relax and remember to breathe. Stress level definitely goes down."
     },
 ]
+
+export const ProductReviews = [
+    {
+        id:1, 
+        review:"Works great! Just use it and then relax, I fall asleep with no problem every time I use it.",
+        name:"Rachel Dill"
+    },
+
+    {
+        id:2, 
+        review:"It really helps me fall right to sleep compared to melatonin pills.",
+        name:"Javier Mendez"
+    },
+
+    {
+        id:3, 
+        review:"I've tried a lot of things to sleep but none of those worked, so I tried Cloudy and wow! I sleep like a baby now.",
+        name:"Naomi Nwazurike"
+    },
+
+    {
+        id:4, 
+        review:"I have been falling asleep faster and sleeping thru the night.",
+        name:"Nate Jacobs"
+    },
+]
