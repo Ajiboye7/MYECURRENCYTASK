@@ -14,6 +14,9 @@ const config: Config = {
           DEFAULT: "rgba(33, 56, 66, 0.6)",
           custom: "background: #4D533C",
         },
+        btnBg:"#FC5959",
+        btnHover: '#0A1E3A',
+        sponsorBg:"#FFFFFF"
       },
 
       backgroundImage: {

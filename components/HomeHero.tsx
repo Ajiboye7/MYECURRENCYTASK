@@ -1,12 +1,21 @@
 import React from "react";
-import Navbar from "./Navbar";
 import CustomButton from "./CustomButton";
+import Image from "next/image";
+import images from "@/constants/images";
 
 const Hero = () => {
+  const images = {
+    google: "/assests/images/google2.0.0 1.png",
+    forbes: "/assests/images/PngItem_272311 1.png",
+    bloomberg: "/assests/images/PngItem_2146723 1.png",
+    sleepReview: "/assests/images/Sleep-Review-Magazine-Logo 1.png",
+    influencive: "/assests/images/Logo_Black_Large_Slogan_newfont2 1.png"
+  };
+
   return (
     <section className="bg-hero-bg bg-cover bg-center h-[90vh] w-full">
-      <div className="w-full flex h-full">
-        <div className="container mx-auto mt-72 ">
+      <div className=" flex w-full h-full">
+        <div className="w-[1276px] mx-auto mt-72 ">
           <p className="text-[18px] font-normal text-primary">
             We are here to help you
           </p>
@@ -17,15 +26,42 @@ const Hero = () => {
             With the aid of our Melatonin Sleepstiq, we can assure you that you
             can <br /> get quality sleep.
           </p>
+
+          <div className="mt-7">
+            <CustomButton title="Visit Shop" />
+          </div>
         </div>
-       
       </div>
 
-      <div>
-        <CustomButton
-        title="Visit Shop"
-        />
+      <div className=" ">
+      <div className="w-[1276px] h-[131px] border rounded-[2px] absolute bottom-10 right-0 bg-sponsorBg shadow-2xl">
+        <div className="flex items-center justify-around h-full">
+          <Image src={images.google} alt="google" width={146} height={51} />
+          <Image src={images.forbes} alt="forbes" width={129} height={32} />
+          <Image
+            src={images.bloomberg}
+            alt="bloomberg"
+            width={226}
+            height={44}
+          />
+          <Image
+            src={images.sleepReview}
+            alt="sleepReview"
+            width={201}
+            height={48}
+          />
+
+          <Image
+            src={images.influencive}
+            alt="influencive"
+            width={220}
+            height={48}
+          />
+        </div>
       </div>
+
+      </div>
+      
     </section>
   );
 };
