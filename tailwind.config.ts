@@ -14,13 +14,15 @@ const config: Config = {
           DEFAULT: "rgba(33, 56, 66, 0.6)",
           custom: "background: #4D533C",
         },
+        tertiary:"#152934",
         btnBg:"#FC5959",
         btnHover: '#0A1E3A',
-        sponsorBg:"#FFFFFF"
+        sponsorBg:"#FFFFFF",
+        circleBg:"#C4C4C4"
       },
 
       backgroundImage: {
-        'hero-bg': "url('/assests/images/shutterstock_5245130141.png')", 
+        'hero-bg': "url('/assests/images/shutterstock_524513014 1.png')", 
       },
 
       fontFamily: {
