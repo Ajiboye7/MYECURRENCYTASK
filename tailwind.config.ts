@@ -22,11 +22,13 @@ const config: Config = {
         cardBg:"#FBF9F2",
         footerBg:"#043C50",
         footerLink:"#ABABAB",
-        socialBg:"#8FE2FF"
+        socialBg:"#8FE2FF",
+        footerBorder: "#5D6544"
       },
 
       backgroundImage: {
         'hero-bg': "url('/assests/images/shutterstock_524513014 1.png')", 
+        'about-hero-bg': "url('/assests/images/shutterstock_1304655307 1.png')", 
       },
 
       fontFamily: {

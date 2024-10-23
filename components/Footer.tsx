@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import images from "@/constants/images";
 import icons from "@/constants/icons";
 
 const Footer = () => {
   return (
-    <footer className="bg-footerBg py-8">
+    <footer className="bg-footerBg py-8 px-10">
       {/* Image at the top */}
       <div className="flex justify-center mb-6">
         <Image
@@ -16,34 +15,60 @@ const Footer = () => {
         />
       </div>
 
-      {/* Footer content */}
-      <div className="max-w-[1325px] mx-auto flex flex-wrap justify-between gap-8 px-4 sm:px-6 lg:px-8">
-        
+      {/* Footer content using grid */}
+      <div
+        className="max-w-[1325px] mx-auto grid gap-8 px-4 sm:px-6 lg:px-8"
+        style={{
+          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+        }}
+      >
         {/* Company Section */}
-        <div className="flex-1 w-full sm:w-auto max-w-[167px] mb-6">
-          <p className="text-[16px] font-bold text-white leading-[38px]">COMPANY</p>
+        <div className="mb-6">
+          <p className="text-[16px] font-bold text-white leading-[38px]">
+            COMPANY
+          </p>
           <ul className="mt-2">
-            <li className="text-[16px] font-normal leading-[40px] text-footerLink">About</li>
-            <li className="text-[16px] font-normal leading-[40px] text-footerLink">Blog</li>
-            <li className="text-[16px] font-normal leading-[40px] text-footerLink">Contact</li>
-            <li className="text-[16px] font-normal leading-[40px] text-footerLink">Jobs</li>
+            <li className="text-[16px] font-normal leading-[40px] text-footerLink">
+              About
+            </li>
+            <li className="text-[16px] font-normal leading-[40px] text-footerLink">
+              Blog
+            </li>
+            <li className="text-[16px] font-normal leading-[40px] text-footerLink">
+              Contact
+            </li>
+            <li className="text-[16px] font-normal leading-[40px] text-footerLink">
+              Jobs
+            </li>
           </ul>
         </div>
 
         {/* Contact Section */}
-        <div className="flex-1 w-full sm:w-auto max-w-[265px] mb-6">
-          <h2 className="text-[16px] font-bold text-white leading-[38px]">CONTACT</h2>
+        <div className="mb-6">
+          <h2 className="text-[16px] font-bold text-white leading-[38px]">
+            CONTACT
+          </h2>
           <ul className="mt-2">
-            <li className="text-[16px] font-normal leading-[40px] text-footerLink">Phone</li>
-            <li className="text-[16px] font-bold text-white leading-[40px]">+234 708 507 3128</li>
-            <li className="text-[16px] font-normal leading-[40px] text-footerLink">Address</li>
-            <li className="text-[16px] font-bold leading-[40px] text-white">16, Ogindipe Close, Upston Close</li>
+            <li className="text-[16px] font-normal leading-[40px] text-footerLink">
+              Phone
+            </li>
+            <li className="text-[16px] font-bold text-white leading-[40px]">
+              +234 708 507 3128
+            </li>
+            <li className="text-[16px] font-normal leading-[40px] text-footerLink">
+              Address
+            </li>
+            <li className="text-[16px] font-bold leading-[40px] text-white">
+              16, Ogindipe Close, Upston Close
+            </li>
           </ul>
         </div>
 
         {/* Consumer Advisory Section */}
-        <div className="flex-1 w-full sm:w-auto max-w-[463px] mb-6">
-          <p className="text-[16px] font-bold text-white leading-[38px]">Consumer Advisory</p>
+        <div className="mb-6" style={{ gridColumn: "span 2" }}>
+          <p className="text-[16px] font-bold text-white leading-[38px]">
+            CONSUMER ADVISORY
+          </p>
           <p className="text-[16px] font-normal leading-[26px] text-white mt-2">
             These statements have not been evaluated by the Food and Drug
             Administration. This product is not intended to diagnose, treat,
@@ -53,19 +78,24 @@ const Footer = () => {
             this product. Results may vary.
           </p>
           <p className="text-[16px] font-normal leading-[26px] text-white mt-2 cursor-pointer">
-            By using our website or product, you agree to follow our <span className="text-socialBg">terms of service</span>.
+            By using our website or product, you agree to follow our
+            <span className="text-socialBg">terms of service</span>.
           </p>
         </div>
 
         {/* Get in Touch Section */}
-        <div className="flex-1 w-full sm:w-auto max-w-[322px] mb-6 border-l-2 border-gray-300 pl-4">
+        <div className="flex-1 w-full sm:w-auto max-w-[322px] mb-6">
           <div className="flex flex-col justify-between h-full">
-            <div className="flex flex-col gap-5">
-              <h2 className="text-[16px] font-bold text-white leading-[38px]">Get In Touch</h2>
-              <p className="text-[16px] font-normal leading-[26px] text-footerLink">
+            <div className="flex flex-col gap-5 border-l-2 border-footerBorder pl-10">
+              <h2 className="text-[16px] font-bold text-white leading-[38px]">
+                GET IN TOUCH
+              </h2>
+              <p className="text-[16px] font-normal leading-[26px] text-footerLink sm:text-[14px] sm:leading-[24px]">
                 Feel free to get in touch with us via email
               </p>
-              <p className="text-white">hello@sleepstiq.com</p>
+              <p className="text-[24px] font-bold leading-[38px] text-white">
+                hello@sleepstiq.com
+              </p>
               <div className="flex gap-2 mt-2">
                 <div className="flex justify-center items-center bg-socialBg p-2 w-[30px] h-[30px] rounded-full">
                   <Image
@@ -109,7 +139,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <p className="mt-2 text-sm text-gray-500">
+            {/* Ensure this text doesn't break */}
+            <p className="mt-2 text-sm text-gray-500 whitespace-nowrap w-full sm:w-auto text-center pl-10">
               © 2024 Your Company. All rights reserved.
             </p>
           </div>

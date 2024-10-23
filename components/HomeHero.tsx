@@ -50,31 +50,3 @@ const Hero = () => {
 };
 
 export default Hero;
-/*
-
- <div className="w-[1276px] h-[131px] border rounded-[2px] absolute bottom-10 right-0 bg-sponsorBg shadow-2xl container">
-        <div className="flex flex-wrap items-center justify-around h-full">
-          <Image src={images.google} alt="google" width={146} height={51} />
-          <Image src={images.forbes} alt="forbes" width={129} height={32} />
-          <Image
-            src={images.bloomberg}
-            alt="bloomberg"
-            width={226}
-            height={44}
-          />
-          <Image
-            src={images.sleepReview}
-            alt="sleepReview"
-            width={201}
-            height={48}
-          />
-
-          <Image
-            src={images.influencive}
-            alt="influencive"
-            width={220}
-            height={48}
-          />
-        </div>
-      </div>
-*/
