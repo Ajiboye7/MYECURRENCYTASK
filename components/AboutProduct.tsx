@@ -20,8 +20,8 @@ const AboutProduct = () => {
   };
 
   return (
-    <section className="mt-10">
-      <div className="mx-auto max-w-[1101px] flex flex-col lg:flex-row items-center gap-16 px-4 lg:px-0 border-b border-gray-300 pb-8">
+    <section className="mb-32">
+      <div className="mx-auto max-w-[1335px] flex flex-col lg:flex-row items-center gap-16 px-4 lg:px-0 border-b border-gray-300 pb-8">
         {/* Left side with image and text below it */}
         <div className="relative w-full lg:w-[775px] h-auto lg:h-[580px]">
           <Image

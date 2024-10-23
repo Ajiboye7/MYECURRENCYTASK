@@ -6,9 +6,9 @@ import icons from "@/constants/icons";
 
 const ProductReview = () => {
   return (
-    <section className="mt-16 px-4 sm:px-6 lg:px-8">
+    <section className="mt-16 px-4 sm:px-6 lg:px-8 mb-16">
       <div className="max-w-[1400px] mx-auto">
-        <p className="text-[28px] sm:text-[36px] font-bold text-secondary-custom mb-10">
+        <p className="text-[28px] sm:text-[36px] text-center md:text-start font-bold text-secondary-custom mb-10">
           Product Review
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 justify-items-center">

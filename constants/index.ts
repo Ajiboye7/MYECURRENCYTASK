@@ -83,3 +83,54 @@ export const FooterLinks=[
     },
 
 ]
+
+
+export const FaqData=[
+    {
+        id:1,
+        que: "Q1: How does it work?",
+        ans:"Inhaling on the diffuser will turn the inside liquids (melatonin, lavender, chamomile) into a light mist which you inhale, and then exhale out your nose. Inhaling the melatonin allows for a near-instant effect, and also allows you to experience the soothing aromatherapeutic effect of lavender and chamomile."
+    },
+
+    {
+        id:2,
+        que: "Q2: Why inhale melatonin?",
+        ans:"Inhaling on the diffuser will turn the inside liquids (melatonin, lavender, chamomile) into a light mist which you inhale, and then exhale out your nose. Inhaling the melatonin allows for a near-instant effect, and also allows you to experience the soothing aromatherapeutic effect of lavender and chamomile."
+    },
+
+    {
+        id:3,
+        que: "Q3: How much melatonin is there per inhale?",
+        ans:"Inhaling on the diffuser will turn the inside liquids (melatonin, lavender, chamomile) into a light mist which you inhale, and then exhale out your nose. Inhaling the melatonin allows for a near-instant effect, and also allows you to experience the soothing aromatherapeutic effect of lavender and chamomile."
+    },
+
+    {
+        id:4,
+        que: "Q4: Is it an e-cigarette or tobacco product?",
+        ans:"Inhaling on the diffuser will turn the inside liquids (melatonin, lavender, chamomile) into a light mist which you inhale, and then exhale out your nose. Inhaling the melatonin allows for a near-instant effect, and also allows you to experience the soothing aromatherapeutic effect of lavender and chamomile."
+    },
+
+    {
+        id:5,
+        que: "Q5: What's in it?",
+        ans:"Inhaling on the diffuser will turn the inside liquids (melatonin, lavender, chamomile) into a light mist which you inhale, and then exhale out your nose. Inhaling the melatonin allows for a near-instant effect, and also allows you to experience the soothing aromatherapeutic effect of lavender and chamomile."
+    },
+
+    {
+        id:6,
+        que: "Q6: What's not in it?",
+        ans:"Inhaling on the diffuser will turn the inside liquids (melatonin, lavender, chamomile) into a light mist which you inhale, and then exhale out your nose. Inhaling the melatonin allows for a near-instant effect, and also allows you to experience the soothing aromatherapeutic effect of lavender and chamomile."
+    },
+
+    {
+        id:7,
+        que: "Q7: How long does it last?",
+        ans:"Inhaling on the diffuser will turn the inside liquids (melatonin, lavender, chamomile) into a light mist which you inhale, and then exhale out your nose. Inhaling the melatonin allows for a near-instant effect, and also allows you to experience the soothing aromatherapeutic effect of lavender and chamomile."
+    },
+
+    {
+        id:8,
+        que: "Q8: How do I know it has run out/died?",
+        ans:"Inhaling on the diffuser will turn the inside liquids (melatonin, lavender, chamomile) into a light mist which you inhale, and then exhale out your nose. Inhaling the melatonin allows for a near-instant effect, and also allows you to experience the soothing aromatherapeutic effect of lavender and chamomile."
+    },
+]

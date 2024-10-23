@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '480px', 
+      },
       colors: {
         primary: "#12305B",
         secondary: {
@@ -23,7 +26,9 @@ const config: Config = {
         footerBg:"#043C50",
         footerLink:"#ABABAB",
         socialBg:"#8FE2FF",
-        footerBorder: "#5D6544"
+        footerBorder: "#5D6544",
+        searchIcon:"#2C3E50",
+        borderColor:"#BDBDBD"
       },
 
       backgroundImage: {

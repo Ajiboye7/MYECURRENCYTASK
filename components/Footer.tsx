@@ -4,8 +4,7 @@ import icons from "@/constants/icons";
 
 const Footer = () => {
   return (
-    <footer className="bg-footerBg py-8 px-10">
-      {/* Image at the top */}
+    <footer className="bg-footerBg py-10 px-10">
       <div className="flex justify-center mb-6">
         <Image
           src={icons.navLogo}
@@ -15,14 +14,12 @@ const Footer = () => {
         />
       </div>
 
-      {/* Footer content using grid */}
       <div
-        className="max-w-[1325px] mx-auto grid gap-8 px-4 sm:px-6 lg:px-8"
+        className="max-w-[1325px] mx-auto sm:grid gap-8 px-4 sm:px-6 lg:px-8"
         style={{
           gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
         }}
       >
-        {/* Company Section */}
         <div className="mb-6">
           <p className="text-[16px] font-bold text-white leading-[38px]">
             COMPANY
@@ -43,7 +40,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Section */}
         <div className="mb-6">
           <h2 className="text-[16px] font-bold text-white leading-[38px]">
             CONTACT
@@ -64,12 +60,11 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Consumer Advisory Section */}
         <div className="mb-6" style={{ gridColumn: "span 2" }}>
           <p className="text-[16px] font-bold text-white leading-[38px]">
             CONSUMER ADVISORY
           </p>
-          <p className="text-[16px] font-normal leading-[26px] text-white mt-2">
+          <p className="text-[14px] sm:text-[16px] font-normal leading-[26px] w-[280px] sm:w-[483px] text-white mt-2">
             These statements have not been evaluated by the Food and Drug
             Administration. This product is not intended to diagnose, treat,
             cure, or prevent any disease. This product should be used only as
@@ -83,10 +78,9 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Get in Touch Section */}
         <div className="flex-1 w-full sm:w-auto max-w-[322px] mb-6">
           <div className="flex flex-col justify-between h-full">
-            <div className="flex flex-col gap-5 border-l-2 border-footerBorder pl-10">
+            <div className="flex flex-col gap-5 border-l-2 border-footerBorder pl-5 sm:pl-10">
               <h2 className="text-[16px] font-bold text-white leading-[38px]">
                 GET IN TOUCH
               </h2>
@@ -139,8 +133,7 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Ensure this text doesn't break */}
-            <p className="mt-2 text-sm text-gray-500 whitespace-nowrap w-full sm:w-auto text-center pl-10">
+            <p className="mt-2 text-sm text-gray-500 sm:whitespace-nowrap w-full sm:w-auto text-center pl-10">
               © 2024 Your Company. All rights reserved.
             </p>
           </div>

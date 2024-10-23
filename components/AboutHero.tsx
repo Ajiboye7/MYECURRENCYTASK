@@ -6,7 +6,7 @@ import images from "@/constants/images";
 const AboutHero = () => {
 
   return (
-    <section className="bg-about-hero-bg  bg-cover bg-center h-[90vh] w-full">
+    <section className="bg-about-hero-bg  bg-cover bg-center h-[90vh] w-full mb-32">
       <div className=" flex w-full h-full">
         <div className="container mx-auto mt-72 ">
           <p className="text-[18px] font-normal text-primary">

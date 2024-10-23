@@ -3,7 +3,7 @@ import CustomButton from './CustomButton';
 
 const Visit = () => {
   return (
-    <div className="flex flex-col items-center justify-center max-w-[920px] w-full mx-auto text-center px-4 sm:px-6 lg:px-8 mt-20">
+    <div className="flex flex-col items-center justify-center max-w-[920px] w-full mx-auto text-center px-4 sm:px-6 lg:px-8 mt-20 border-b border-gray-300 pb-28">
       <p className="text-[28px] sm:text-[36px] font-bold leading-[40px] sm:leading-[74px] text-primary mb-6">
         Visit Our Shop
       </p>
