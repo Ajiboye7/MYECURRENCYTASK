@@ -20,7 +20,9 @@ const config: Config = {
         sponsorBg:"#FFFFFF",
         circleBg:"#C4C4C4",
         cardBg:"#FBF9F2",
-        footerBg:"#043C50"
+        footerBg:"#043C50",
+        footerLink:"#ABABAB",
+        socialBg:"#8FE2FF"
       },
 
       backgroundImage: {
