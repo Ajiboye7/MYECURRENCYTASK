@@ -19,7 +19,6 @@ const Home = () => {
     <Mission/>
     <Visit/>
     <ProductReview/>
-    <Footer/>
     </>
   );
 }

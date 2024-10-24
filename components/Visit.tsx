@@ -1,5 +1,5 @@
-import React from 'react';
-import CustomButton from './CustomButton';
+import React from "react";
+import CustomButton from "./CustomButton";
 
 const Visit = () => {
   return (
@@ -8,12 +8,12 @@ const Visit = () => {
         Visit Our Shop
       </p>
       <p className="text-[14px] sm:text-[16px] font-normal leading-[22px] sm:leading-[26px] text-secondary mb-8">
-        Our Personal Diffuser is an aromatherapy device that contains a blend of melatonin, lavender, and chamomile. 
-        A few breaths of our plant-based essential oil mist will mellow you out, quiet the mind, and lull you to bed.
+        Our Personal Diffuser is an aromatherapy device that contains a blend of
+        melatonin, lavender, and chamomile. A few breaths of our plant-based
+        essential oil mist will mellow you out, quiet the mind, and lull you to
+        bed.
       </p>
-      <CustomButton title="Visit Shop"
-      link='/shop'
-       />
+      <CustomButton title="Visit Shop" link="/shop" />
     </div>
   );
 };
