@@ -18,7 +18,7 @@ const SearchInput = () => {
         <input
           type="text"
           placeholder="Search FAQs here"
-          className="md:w-full h-full pl-24 pr-4 border border-gray-300 rounded-[10px] text-[18px] placeholder-primary focus:outline-none focus:ring-2 focus:ring-primary"
+          className="w-[300px] md:w-full h-full pl-24 pr-4 border border-gray-300 rounded-[10px] text-[18px] placeholder-primary focus:outline-none focus:ring-2 focus:ring-primary"
         />
       </div>
     </div>
