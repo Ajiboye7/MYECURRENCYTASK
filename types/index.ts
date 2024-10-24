@@ -1,5 +1,6 @@
 export interface CustomButtonProps{
     title: string
+    link: string
 }
 
 export interface TestimonyProps{

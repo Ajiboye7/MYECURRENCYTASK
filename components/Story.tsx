@@ -6,7 +6,7 @@ import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 
 const Story = () => {
   return (
-    <section className="mt-40 mb-32 px-4">
+    <section className="mt-56 mb-32 px-4">
    
       <div className="mx-auto max-w-[1109px] flex flex-col lg:flex-row justify-between gap-8 h-auto lg:h-[455px] px-4 md:px-0">
         

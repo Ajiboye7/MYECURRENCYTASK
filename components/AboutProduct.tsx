@@ -107,7 +107,9 @@ const AboutProduct = () => {
 
           {/* Buy Button */}
           <div className="flex justify-center lg:justify-start mt-10">
-            <CustomButton title="Buy" />
+            <CustomButton title="Buy"
+            link="/shop" 
+            />
           </div>
         </div>
 

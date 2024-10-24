@@ -43,7 +43,9 @@ const ShopNow = () => {
             and lull you to bed.
           </p>
           <div className="flex justify-center lg:justify-start">
-            <CustomButton title="View Shop" />
+            <CustomButton title="View Shop"
+            link="/shop"
+             />
           </div>
         </div>
       </div>

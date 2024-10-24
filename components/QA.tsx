@@ -32,7 +32,7 @@ const QA = () => {
               }`}
             >
               <p
-                className="cursor-pointer font-normal text-primary text-[18px] lg:text-[18px] mb-2 pt-4"
+                className="cursor-pointer font-normal text-primary text-[15px] sm:text-[18px] lg:text-[18px] mb-2 pt-4"
                 onClick={() => toggleAnswer(faq.id)}
               >
                 {faq.que}
@@ -45,7 +45,7 @@ const QA = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="text-[16px] lg:text-[16px] text-black pb-4 leading-[24px]">
+                <p className="text-[14px] sm:text-[16px] lg:text-[16px] text-black pb-4 leading-[24px]">
                   {faq.ans}
                 </p>
               </div>

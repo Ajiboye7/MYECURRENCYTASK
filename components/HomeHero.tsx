@@ -4,13 +4,7 @@ import Image from "next/image";
 import images from "@/constants/images";
 
 const Hero = () => {
-  const images = {
-    google: "/assests/images/google2.0.0 1.png",
-    forbes: "/assests/images/PngItem_272311 1.png",
-    bloomberg: "/assests/images/PngItem_2146723 1.png",
-    sleepReview: "/assests/images/Sleep-Review-Magazine-Logo 1.png",
-    influencive: "/assests/images/Logo_Black_Large_Slogan_newfont2 1.png"
-  };
+ 
 
   return (
     <section className="bg-hero-bg bg-cover bg-center h-[90vh] w-full">
@@ -28,7 +22,9 @@ const Hero = () => {
           </p>
 
           <div className="mt-7">
-            <CustomButton title="Visit Shop" />
+            <CustomButton title="Visit Shop" 
+           link="/shop"
+            />
           </div>
         </div>
       </div>
