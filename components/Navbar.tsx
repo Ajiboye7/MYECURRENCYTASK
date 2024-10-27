@@ -31,7 +31,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="/about"
+            href="/shop"
             className="nav-link font-normal hover:text-primary"
           >
             About
@@ -74,7 +74,7 @@ const Navbar = () => {
           Home
         </Link>
         <Link
-          href="/about"
+          href="/shop"
           onClick={toggleMenu}
           className="nav-link hover:text-primary"
         >
