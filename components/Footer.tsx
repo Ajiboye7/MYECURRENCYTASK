@@ -134,7 +134,7 @@ const Footer = () => {
             </div>
 
             <p className="mt-2 text-sm text-gray-500 sm:whitespace-nowrap w-full sm:w-auto text-center pl-10">
-              © 2024 Your Company. All rights reserved.
+              © 2022 Your Company. All rights reserved.
             </p>
           </div>
         </div>
