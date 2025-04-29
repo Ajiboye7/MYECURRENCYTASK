@@ -60,4 +60,13 @@ const Hero = () => {
             src={images.influencive}
             alt="influencive"
             width={220}
-            
+            height={48}
+            className="w-[90px] sm:w-auto"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
