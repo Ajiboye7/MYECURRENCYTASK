@@ -49,7 +49,13 @@ const Hero = () => {
             height={44}
             className="w-[90px] sm:w-auto"
           />
-          <Im
+          <Image
+            src={images.sleepReview}
+            alt="sleepReview"
+            width={201}
+            height={48}
+            className="w-[90px] sm:w-auto"
+          />
           <Image
             src={images.influencive}
             alt="influencive"
