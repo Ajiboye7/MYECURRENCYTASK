@@ -15,12 +15,12 @@ const Hero = () => {
             Relax & Rest
           </p>
           <p className="text-[13px] sm:text-[16px] max-w-[300px] md:max-w-[600px] text-w font-normal leading[20px] text-primary ">
-            With the aid of our Melatonin Sleepstiq, we can assure you that you
+            With the aid of   our Melatonin Sleepstiq, we can assure you that you
             can
             <br /> get quality sleep.
           </p>
 
-          <div className="mt-7">
+          <div className="mt-7">    
             <CustomButton title="Visit Shop" link="/shop" />
           </div>
         </div>
