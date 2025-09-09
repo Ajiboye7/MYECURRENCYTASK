@@ -44,7 +44,16 @@ const Hero = () => {
           />
           <Image
             src={images.bloomberg}
-            a
+            alt="bloomberg"
+            width={226}
+            height={44}
+            className="w-[90px] sm:w-auto"
+          />
+          <Image
+            src={images.sleepReview}
+            alt="sleepReview"
+            width={201}
+            height={48}
             className="w-[90px] sm:w-auto"
           />
           <Image
