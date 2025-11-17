@@ -62,7 +62,7 @@ const AboutProduct = () => {
             <div className="w-[190px] flex flex-col gap-1">
               <div className="flex items-center justify-between pr-7">
                 <p className="text-[16px] font-normal leading-[26px]">Price</p>
-               
+                <p className="text-[16px] font-normal leading-[26px]">Unit</p>
               </div>
 
               <div className="flex items-center justify-between">
