@@ -43,7 +43,7 @@ const AboutProduct = () => {
 
           <div className="w-full lg:w-[453px] my-5 h-auto bg-sponsorBg rounded-md">
             <p className="text-[14px] lg:text-[16px] font-medium mb-2">
-              <span className="mr-2"></span>Promotes calm and relaxation
+              <span className="mr-2">😊</span>Promotes calm and relaxation
             </p>
             <p className="text-[14px] lg:text-[16px] font-medium mb-2">
               <span className="mr-2">💤</span>Inhalation allows for a rapid
