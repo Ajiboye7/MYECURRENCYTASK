@@ -11,7 +11,7 @@ const Visit = () => {
         Our Personal Diffuser is an aromatherapy device that contains a blend of
         melatonin, lavender, and chamomile. A few breaths of our plant-based
         essential oil mist will mellow you out, quiet the mind, and lull you to
-        bed.
+        bed!.
       </p>
       <CustomButton title="Visit Shop" link="/shop" />
     </div>
