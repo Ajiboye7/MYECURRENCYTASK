@@ -17,7 +17,7 @@ const QA = () => {
       <div className="flex flex-col lg:flex-row  px-4 lg:px-0 mx-10 max-w-[1240px]">
         <div className="flex-none w-[212px] h-[181px] space-y-4">
           <p className="font-bold cursor-pointer">Sleepstiq Product</p>
-          <p className="font-bold cursor-pointer">Order</p>
+          <p className="font-bold cursor-pointer">Order now</p>
           <p className="font-bold cursor-pointer">Melatonin</p>
         </div>
 
